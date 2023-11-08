@@ -1,8 +1,9 @@
-http://example.com/posts/9daba997.html
-http://example.com/posts/4a17b156.html
-http://example.com/tags/index.html
-http://example.com/categories/index.html
-http://example.com/
-http://example.com/tags/node-js/
-http://example.com/tags/hexo/
-http://example.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/
+https://blog.reflux-sharing.top/link/index.html
+https://blog.reflux-sharing.top/posts/9daba997.html
+https://blog.reflux-sharing.top/posts/4a17b156.html
+https://blog.reflux-sharing.top/tags/index.html
+https://blog.reflux-sharing.top/categories/index.html
+https://blog.reflux-sharing.top/
+https://blog.reflux-sharing.top/tags/node-js/
+https://blog.reflux-sharing.top/tags/hexo/
+https://blog.reflux-sharing.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/
