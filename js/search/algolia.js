@@ -99,7 +99,7 @@ window.addEventListener('load', () => {
     showSubmit: false,
     searchOnEnterKeyPressOnly: true, //只有输入enter才搜索，以免输入一个字符就浪费algolia次数
     //placeholder: GLOBAL_CONFIG.algolia.languages.input_placeholder,
-    placeholder: "输入关键词后，按下回车键即可搜索文章...",
+    placeholder: "输入关键词后，按下回车键即可搜索文章..",
     showLoadingIndicator: true
   })
 
