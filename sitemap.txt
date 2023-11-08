@@ -1,6 +1,7 @@
-http://example.com/2023/11/06/hello-world/
-http://example.com/categories/index.html
+http://example.com/posts/9daba997.html
+http://example.com/posts/4a17b156.html
 http://example.com/tags/index.html
+http://example.com/categories/index.html
 http://example.com/
 http://example.com/tags/node-js/
 http://example.com/tags/hexo/
