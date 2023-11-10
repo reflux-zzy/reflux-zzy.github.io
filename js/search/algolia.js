@@ -96,11 +96,10 @@ window.addEventListener('load', () => {
   const searchBox = instantsearch.widgets.searchBox({
     container: '#algolia-search-input',
     showReset: false,
-    showSubmit: false,
-    //只有输入enter才搜索，以免输入一个字符就浪费algolia次数，但不起作用
-    searchOnEnterKeyPressOnly: true, 
+    showSubmit: true,
+    searchAsYouType: false, // 新增 可以实现回车或点击按钮搜索，不会每次输入都搜索
     //placeholder: GLOBAL_CONFIG.algolia.languages.input_placeholder,
-    placeholder: "输入关键词后，按下回车键即可搜索文章..",
+    placeholder: "输入关键词后，按下回车键即可搜索文章...",
     showLoadingIndicator: true
   })
 

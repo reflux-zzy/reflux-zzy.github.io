@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.reflux-sharing.top/posts/e85d694a.html</loc>
+    <loc>https://blog.reflux-sharing.top/posts/84520ef4.html</loc>
     
     <lastmod>2023-11-09</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.reflux-sharing.top/posts/84520ef4.html</loc>
+    <loc>https://blog.reflux-sharing.top/posts/e85d694a.html</loc>
     
     <lastmod>2023-11-09</lastmod>
     
@@ -94,11 +94,18 @@
 
   <url>
     <loc>https://blog.reflux-sharing.top/</loc>
-    <lastmod>2023-11-09</lastmod>
+    <lastmod>2023-11-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://blog.reflux-sharing.top/tags/%E9%B1%BC%E7%9A%AE%E7%9A%84%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2023-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
