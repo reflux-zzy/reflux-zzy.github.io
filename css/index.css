@@ -3970,6 +3970,14 @@ h1.page-title + .tag-cloud-list {
     filter: alpha(opacity=40);
   }
 }
+#pagination {
+  width: 100%;
+  margin: auto;
+}
+#pagination .pagination {
+  margin-top: 20px;
+  text-align: center;
+}
 #pagination .pagination {
   margin-top: 20px;
   text-align: center;
