@@ -1,0 +1,98 @@
+/* 归档、分类、朋友圈 */
+.article-sort {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.article-sort-title {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.article-sort-item {
+  width: 100%;
+  padding: .5rem;
+  margin: .3rem 0;
+  background: var(--global-bg);
+  border-radius: var(--border-radius);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.article-sort-item.year {
+  width: 100%;
+  margin: .5rem 0;
+  color: var(--second);
+  background: var(--main) !important;
+}
+
+.article-sort-title::before,
+.article-sort-title::after,
+.article-sort-item::before {
+  display: none;
+}
+
+@media screen and (min-width: 901px) {
+  .article-sort-item:not(.year):not(#fc-state):not(#fc-more) {
+    width: calc(50% - .25rem);
+  }
+}
+
+.article-sort-item-img {
+  height: 80px;
+  width: 120px;
+  border-radius: var(--border-radius);
+}
+:root {
+  --default-cursor: url(https://npm.elemecdn.com/eurkon-cdn/hexo/images/user/default.cur);
+  --pointer-cursor: url(https://npm.elemecdn.com/eurkon-cdn/hexo/images/user/pointer.cur);
+  --theme-color: #1677B3;
+  --global-bg: #F2F6FC;
+  --global-bg-lighter: rgba(242, 246, 252, .4);
+  --global-bg-bolder: rgba(242, 246, 252, .8);
+  --r: 22;
+  --g: 119;
+  --b: 179;
+  --main: rgb(var(--r), var(--g), var(--b));
+  --second: var(--white);
+  --cover-bg: rgb(var(--r), var(--g), var(--b));
+  --main-lighter: rgba(var(--r), var(--g), var(--b), .4);
+  --main-bolder: rgba(var(--r), var(--g), var(--b), .8);
+  --box-shadow: 3px 6px 6px -3px rgba(45, 45, 45, .05);
+  /* --box-shadow: 0 2px 3px 1px rgba(45, 45, 45, .05); */
+  --main-shadow: 3px 6px 6px -3px rgba(var(--r), var(--g), var(--b), .2);
+  /* --main-shadow: 0 2px 3px 1px rgba(var(--r), var(--g), var(--b), .2); */
+  --card-border: 1px solid var(--tab-botton-bg);
+  --card-border-dashed: 2px dashed var(--tab-button-hover-bg);
+  --border-radius: .5rem;
+  --light-text: #FF7242;
+  --light-text-bg: rgba(255, 149, 63, .1);
+  --backdrop-filter: saturate(240%) blur(20px);
+}
+
+[data-theme='dark'] {
+  --global-bg: #000;
+  --global-bg-lighter: rgba(0, 0, 0, .4);
+  --global-bg-bolder: rgba(0, 0, 0, .8);
+  --main: #5C5C5C;
+  --second: #EEE !important;
+  --main-lighter: rgba(92, 92, 92, .4);
+  --main-bolder: rgba(92, 92, 92, .8);
+  --main-shadow: 0 2px 3px 1px rgba(92, 92, 92, .2);
+  --light-text: #FFB449;
+  --light-text-bg: rgba(255, 180, 73, .1);
+}
+
+[data-theme='dark'] #web_bg::before,
+[data-theme='dark'] #footer::before,
+[data-theme='dark'] #page-header::before {
+  display: none;
+}
